@@ -47,3 +47,8 @@ mysql -usammy -h 192.168.0.1 -p
 ```
 docker inspect php | grep Gateway
 ```
+
+```
+docker network create -d bridge --subnet 192.168.0.0/24 --gateway 192.168.0.1 dockernet
+
+```
