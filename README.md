@@ -1,5 +1,11 @@
 # wordpress-phpmyadmin
 
+In this repo, I am going to put the installation steps of Wordpress, with docker or onsite phpmyadmin
+
+We are going to install it in two ways
+Connecting WordPress Docker with MySQL Docker
+Connecting WordPress Docker with MySQL installed on the host
+
 ```
 apt-get update
 apt install git unzip ufw docker.io docker-compose
