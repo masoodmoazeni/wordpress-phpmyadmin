@@ -43,3 +43,7 @@ sudo systemctl restart mysql
 ```
 mysql -usammy -h 192.168.0.1 -p
 ```
+
+```
+docker inspect php | grep Gateway
+```
