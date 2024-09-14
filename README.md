@@ -30,3 +30,7 @@ sudo apt install phpmyadmin
 yes - - 1.apache
 sudo service apache2 restart
 ```
+
+```
+mysql -usammy -h 192.168.0.1 -p
+```
