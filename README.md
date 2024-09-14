@@ -31,6 +31,15 @@ yes - - 1.apache
 sudo service apache2 restart
 ```
 
+
+```
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+[mysqld]
+bind-address = 0.0.0.0
+sudo ufw allow 3306/tcp
+sudo systemctl restart mysql
+```
+
 ```
 mysql -usammy -h 192.168.0.1 -p
 ```
