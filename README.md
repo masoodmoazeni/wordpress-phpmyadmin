@@ -50,5 +50,5 @@ docker inspect php | grep Gateway
 
 ```
 docker network create -d bridge --subnet 192.168.0.0/24 --gateway 192.168.0.1 dockernet
-
+https://stackoverflow.com/questions/44543842/how-to-connect-locally-hosted-mysql-database-with-the-docker-container
 ```
